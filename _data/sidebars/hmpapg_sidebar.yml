@@ -1,0 +1,46 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: HMPAPG
+  version: 1.0
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Overview
+    output: web, pdf
+    folderitems:
+
+    - title: Purpose and Objective
+      url: /hmpapg_purpose_and_objective.html
+      output: web, pdf
+
+  - title: Licenses
+    output: web, pdf
+    folderitems:
+
+  - title: Copyright
+    output: web, pdf
+    folderitems:
+
+  - title: Publishing
+    output: web, pdf
+    folderitems:
+    - title: GitHub
+      url: /hmpapg_github.html
+      output: web, pdf
+    - title: Shinyapps.io
+      url: /hmpapg_shinyappsio.html
+      output: web, pdf
